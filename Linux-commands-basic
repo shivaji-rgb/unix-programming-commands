@@ -17,5 +17,8 @@ cp <file name >  <path of the direcory where to store the file>--->to copy the f
 mv <file name>  <path of any folder or folder name where to move the file>--->to move the file into desired directory
 mv <file name old name > <file name --new name to the file>--->it will rename the file to the new name 
 echo "<content wants to print on console like sout in java>"--->it will print the content on the server like sout
+grep <file or folder name>-->use to filter the vaialbility of files/folder inside any list 
+ls | grep <file name>--->checks file name is avaialble or not inside the list of files formed by ls command.
+ls -la---->to see the normal files and all the hidden files and also the permissions..
 
 
