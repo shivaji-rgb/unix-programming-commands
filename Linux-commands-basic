@@ -1,1 +1,11 @@
 
+ls-->list the files and directories
+cd <directory name> --->change directory
+cd ..  ---->one step back
+pwd--->present working directory
+mkdir <direcory name>--->make directory
+touch <file name>--->create file
+sudo su - <user name> ------>to login into the use
+rm -rf <folder or file name>--->to remove any folder or file
+
+
