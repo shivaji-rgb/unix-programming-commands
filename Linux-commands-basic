@@ -7,5 +7,9 @@ mkdir <direcory name>--->make directory
 touch <file name>--->create file
 sudo su - <user name> ------>to login into the use
 rm -rf <folder or file name>--->to remove any folder or file
+vi <file name>--->to edit any file
+cat <file name>--->to see or read the content inside the file
+:wq!--->to write and quit ..I mean save the modified content and exit from the file editing 
+:q!---->just quit without saving the content written inside the file
 
 
