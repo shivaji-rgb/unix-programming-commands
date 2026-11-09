@@ -15,5 +15,7 @@ cat > <file name>--->override the file content
 cat >> <file name>---->add the content to exixsting content I mean appending the content to the existing
 cp <file name >  <path of the direcory where to store the file>--->to copy the file into another location
 mv <file name>  <path of any folder or folder name where to move the file>--->to move the file into desired directory
+mv <file name old name > <file name --new name to the file>--->it will rename the file to the new name 
+
 
 
