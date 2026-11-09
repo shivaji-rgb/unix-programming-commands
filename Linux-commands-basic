@@ -16,6 +16,6 @@ cat >> <file name>---->add the content to exixsting content I mean appending the
 cp <file name >  <path of the direcory where to store the file>--->to copy the file into another location
 mv <file name>  <path of any folder or folder name where to move the file>--->to move the file into desired directory
 mv <file name old name > <file name --new name to the file>--->it will rename the file to the new name 
-
+echo "<content wants to print on console like sout in java>"--->it will print the content on the server like sout
 
 
