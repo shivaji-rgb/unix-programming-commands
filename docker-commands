@@ -11,5 +11,6 @@ whoami========>dispalys the currently loggedin user
 sudo systemctl is-enabled docker===========>is docker enabled or not
 sudo systemctl start docker=========>to start the docker server
 sudo systemctl enable docker=========>when the instance restarts then automatically docker will be started.
-
+sudo docker info=========>used to know about the total containers running or stopped
+sudo docker ps======>
 
