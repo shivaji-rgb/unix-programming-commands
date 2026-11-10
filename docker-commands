@@ -8,8 +8,8 @@ docker --version======>just to know the docker version
 docker version========>to now the client and server docker version and also we can know the docker is installed or not
 sudo dnfinstall docker -y=====>also used to install the docker
 whoami========>dispalys the currently loggedin user
-sudo systemctl is-enabled docker==========>is docker enabled or not
+sudo systemctl is-enabled docker===========>is docker enabled or not
 sudo systemctl start docker=========>to start the docker server
-
+sudo systemctl enable docker=========>when the instance restarts then automatically docker will be started.
 
 
