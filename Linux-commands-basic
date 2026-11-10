@@ -20,5 +20,7 @@ echo "<content wants to print on console like sout in java>"--->it will print th
 grep <file or folder name>-->use to filter the vaialbility of files/folder inside any list 
 ls | grep <file name>--->checks file name is avaialble or not inside the list of files formed by ls command.
 ls -la---->to see the normal files and all the hidden files and also the permissions..
+ls -l---->shows noraml files with permissions
+
 
 
