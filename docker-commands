@@ -14,3 +14,7 @@ sudo systemctl enable docker=========>when the instance restarts then automatica
 sudo docker info=========>used to know about the total containers running or stopped
 sudo docker ps======>
 sudo docker run -it ubuntu /bin/bash========>
+docker pull <imagename>
+dcocker run <image name>====>to create the container
+docker images
+docker run -it <image name>
