@@ -12,9 +12,10 @@ sudo systemctl is-enabled docker===========>is docker enabled or not
 sudo systemctl start docker=========>to start the docker server
 sudo systemctl enable docker=========>when the instance restarts then automatically docker will be started.
 sudo docker info=========>used to know about the total containers running or stopped
-sudo docker ps======>
-sudo docker run -it ubuntu /bin/bash========>
-docker pull <imagename>
+sudo docker ps======>use to know all the container ids and status
+sudo docker run -it ubuntu /bin/bash========>to create a container
+docker pull <imagename>======>pull the docker image from the docker  hub
 dcocker run <image name>====>to create the container
-docker images
-docker run -it <image name>
+docker images========>to see all the docker images that we have pulled
+docker run -it <image name>============>to create a container on any image
+docker exec -it <containerId id> /bin/bash========>to login into the container
