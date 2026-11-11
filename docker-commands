@@ -22,3 +22,13 @@ docker images========>to see all the docker images that we have pulled
 docker run -it <image name>============>to create a container on any image
 docker exec -it <containerId id> /bin/bash========>Executes a command inside an already-running container.
 
+
+=================================
+Dockerfile=============>Docker file name should be like 
+From=========>to pull an image
+docker build -t <image name> . =======>it will build the docker file in the current directory
+workdir <any name like /app>=======>creates a directory and sets the current given directory
+copy . /app=============>copy the current directory files into the app directory
+run ====>used to run any command
+cmd======>will work at the time of run not at the time of build
+
