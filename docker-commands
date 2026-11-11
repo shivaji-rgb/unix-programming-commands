@@ -17,6 +17,8 @@ sudo docker ps======>use to know all the container ids and status
 sudo docker run -it ubuntu /bin/bash========>to create a container
 docker pull <imagename>======>pull the docker image from the docker  hub
 dcocker run <image name>====>to create the container
+sudo docker start <container_id>===>start existing stopped container
 docker images========>to see all the docker images that we have pulled
 docker run -it <image name>============>to create a container on any image
-docker exec -it <containerId id> /bin/bash========>to login into the container
+docker exec -it <containerId id> /bin/bash========>Executes a command inside an already-running container.
+
