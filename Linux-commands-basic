@@ -21,6 +21,20 @@ grep <file or folder name>-->use to filter the vaialbility of files/folder insid
 ls | grep <file name>--->checks file name is avaialble or not inside the list of files formed by ls command.
 ls -la---->to see the normal files and all the hidden files and also the permissions..
 ls -l---->shows noraml files with permissions
+=======================to calculate the commands how they will give =================
+user           usergroup       others         (Read Write execute====RWX)
+----           ---------       ------
+RWX
+1+2+4=7
+chmod 700 <file-name/folder name>----->giving the permission to a folder/file ie read and write and execute permission for owner
+chown user:usergroupid filename----->changing the ownership of any file or directory
+useradd username---->creating a user
+passwd username----->adding password to the user
+====================Login to a server using the user nad password through the mobaxterm====================
+1)need to create a user and password
+2)should have edit the /etc/ssh/sshd_config  at this place we need to allow that login using user and password
+
+
 
 
 
