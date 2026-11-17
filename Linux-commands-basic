@@ -35,8 +35,15 @@ passwd username----->adding password to the user
 2)should have edit the /etc/ssh/sshd_config  at this place we need to allow that login using user and password
 3)service ssd reload
 =====================================================================================================
-for the directory cd /tmp/-------->any user have the sudo permissions I mean admin permissions
-
+1)for the directory cd /tmp/-------->any user have the sudo permissions I mean admin permissions
+2)If we wants to enter I mean cd <any directory>--->we should have execute permission on that directory
+3)shell script means writing the executable commands inside any file like <name>.sh
+4)sh test.sh or ------------->to run shibang line file I mean .sh file we can use
+5)all the created users cant use sudo command to install or to do any sudo based commands..
+we need to add them inside the sudoers file ...
+6)vi /etc/sudoers------------------->here we need to edit do as needed....we can give specific permissions also ..like install only some packages 
+7)vi /etc/sudoers.d/90-cloud-init-users------------>default users we can find at this path  like ec2-user 
+8).sh file executing user should have root permissions ..otherwise we cant execute
 
 
 
