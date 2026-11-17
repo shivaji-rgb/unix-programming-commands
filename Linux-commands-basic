@@ -33,6 +33,10 @@ passwd username----->adding password to the user
 ====================Login to a server using the user nad password through the mobaxterm====================
 1)need to create a user and password
 2)should have edit the /etc/ssh/sshd_config  at this place we need to allow that login using user and password
+3)service ssd reload
+=====================================================================================================
+for the directory cd /tmp/-------->any user have the sudo permissions I mean admin permissions
+
 
 
 
