@@ -44,7 +44,14 @@ we need to add them inside the sudoers file ...
 6)vi /etc/sudoers------------------->here we need to edit do as needed....we can give specific permissions also ..like install only some packages 
 7)vi /etc/sudoers.d/90-cloud-init-users------------>default users we can find at this path  like ec2-user 
 8).sh file executing user should have root permissions ..otherwise we cant execute
-
+==========================================================================================
+1)./test.sh ----------->to run this command we need execute permission also
+2)usermod -a -G <groupname>  <username>-------->adding a user to the user-group
+3)id root------->to check that root user is in any group or not
+4)cat /etc/passwd---->to check all the existing users
+=============================networking=================================
+1)ps aux------------>to ckeck the no of processes are working or not in the server ..like app is runing or not in the server on which port
+2)ps aux | grep python
 
 
 
