@@ -51,8 +51,16 @@ we need to add them inside the sudoers file ...
 4)cat /etc/passwd---->to check all the existing users
 =============================networking=================================
 1)ps aux------------>to ckeck the no of processes are working or not in the server ..like app is runing or not in the server on which port
-2)ps aux | grep python
-
-
+2)ps aux | grep python---------> to check whether the python process is working or not..
+3)ss -tuln ------->shows the number of open ports on the server or which port is listening..
+4)lsof -i :80 ----->it will give which process is running on the 80 port
+5)nmap <private -ip of server>--------->which port is currently active .....It can give any server's active ports....need to do ===yum install nmap -y
+6)telnet <any ip> <any port>---------->this will tell that will server can connect to give port or nor
+================================= if any app is not responding for client =======================================
+points to check
+1)check sg level port is allowed or not
+2)check  s2 for load balancer or not
+3)inside the app app port is access or not..
+4)which process is running on the selected port
 
 
